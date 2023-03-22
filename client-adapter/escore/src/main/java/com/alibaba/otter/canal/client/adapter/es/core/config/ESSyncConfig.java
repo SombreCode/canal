@@ -114,27 +114,27 @@ public class ESSyncConfig implements AdapterConfig {
 
         private SchemaItem                   schemaItem;                             // sql解析结果模型
 
-        public String get_index() {
+        public String getIndex() {
             return _index;
         }
 
-        public void set_index(String _index) {
+        public void setIndex(String _index) {
             this._index = _index;
         }
 
-        public String get_type() {
+        public String getType() {
             return _type;
         }
 
-        public void set_type(String _type) {
+        public void setType(String _type) {
             this._type = _type;
         }
 
-        public String get_id() {
+        public String getId() {
             return _id;
         }
 
-        public void set_id(String _id) {
+        public void setId(String _id) {
             this._id = _id;
         }
 
